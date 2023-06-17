@@ -14,7 +14,7 @@
 
 2. Выполнить команду:
 
-     docker run --rm --mount type=bind,src=[директива с докер файлом],target=/test_project/ pytest_runner
+     docker run --rm --mount type=bind,src=[директива проекта],target=/test_project/ pytest_runner
 
          --rm - ключ для автоматического удаления контейнера после выполнения
          --mount - подтягивание тестов из проекта
